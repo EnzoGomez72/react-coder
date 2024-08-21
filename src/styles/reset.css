@@ -1,0 +1,14 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+
+
+    a{
+        color: #fdfdfd;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;       
+    }

@@ -1,0 +1,8 @@
+/* RESET */
+
+@import "./styles/reset.css";
+
+/* COMPONENTS */
+
+@import "./components/Navbar/Index.css";
+@import "./components/CartWidget/Index.css";
