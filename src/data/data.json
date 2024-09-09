@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Embroided Ocho Tee Black",
+        "price": 28000,
+        "img": "/public/img/embroided-ocho-black-tee.png",
+        "category": "top",
+        "description": "Remera color negro",
+        "quantity": 1
+    },
+    {
+        "id": 2,
+        "name": "Embroided Ocho Tee Gray",
+        "price": 28000,
+        "img": "/public/img/embroided-ocho-gris-tee.png",
+        "category": "top",
+        "description": "Remera color gris",
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "name": "Embroided Ocho Tee Dune",
+        "price": 28000,
+        "img": "/public/img/embroided-ocho-dune-tee.png",
+        "category": "top",
+        "description": "Remera color tierra",
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "name": "Embroided Ocho Tee Lemoncream",
+        "price": 28000,
+        "img": "/public/img/embroided-ocho-lemoncream-tee.png",
+        "category": "top",
+        "description": "Remera color limon",
+        "quantity": 1
+    },
+    {
+        "id": 5,
+        "name": "Embroidered Thunderbird Tee Black",
+        "price": 28000,
+        "img": "/public/img/embroidered-thunderbird-tee.png",
+        "category": "top",
+        "description": "Remera color negro con ave",
+        "quantity": 1
+    },
+    {
+        "id": 6,
+        "name": "Embroided Thunderbird Tee Dune",
+        "price": 28000,
+        "img": "/public/img/embroidered-thunderbird-tee-dune.png",
+        "category": "top",
+        "description": "Remera color tierra con ave",
+        "quantity": 1
+    },
+    {
+        "id": 7,
+        "name": "Embroidered Thunderbird Tee Lemoncream",
+        "price": 28000,
+        "img": "/public/img/embroidered-thunderbird-tee-lemoncream.png",
+        "category": "top",
+        "description": "Remera color limon con ave",
+        "quantity": 1
+    },
+    {
+        "id": 8,
+        "name": "Embroidered Thunderbird Tee Gray",
+        "price": 28000,
+        "img": "/public/img/embroidered-thunderbird-tee-gris.png",
+        "category": "top",
+        "description": "Remera color gris con ave",
+        "quantity": 1
+    },
+    {
+        "id": 9,
+        "name": "Nylon Track Jacket Black",
+        "price": 28000,
+        "img": "/public/img/nylon-track-jacket-black.png",
+        "category": "top",
+        "description": "Chaqueta color negro",
+        "quantity": 1
+    },
+    {
+        "id": 10,
+        "name": "Wideleg Trouser Black",
+        "price": 37000,
+        "img": "/public/img/wideleg-trouser-black.png",
+        "category": "bottom",
+        "description": "Pantalon ancho color negro",
+        "quantity": 1
+    },
+    {
+        "id": 11,
+        "name": "Wideleg Trouser Gray",
+        "price": 37000,
+        "img": "/public/img/wideleg-trouser-gris.png",
+        "category": "bottom",
+        "description": "Pantalon ancho color gris",
+        "quantity": 1
+    },
+    {
+        "id": 12,
+        "name": "Wideleg Trouser Lemoncream",
+        "price": 37000,
+        "img": "/public/img/wideleg-trouser-lemoncream.png",
+        "category": "bottom",
+        "description": "Pantalon ancho color limon",
+        "quantity": 1
+    }
+]

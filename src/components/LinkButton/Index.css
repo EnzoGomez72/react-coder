@@ -1,0 +1,9 @@
+.link-button {
+    font-size: 20px;
+    line-height: 1;
+};
+
+.link-button:hover {
+    color: #6d646d;
+    transition: ease 0.3s;
+};

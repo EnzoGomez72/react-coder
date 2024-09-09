@@ -2,7 +2,15 @@
 
 @import "./styles/reset.css";
 
+/* CONTAINERS */
+
+@import "./containers/Header/Index.css";
+@import "./containers/Footer/Index.css";
+
 /* COMPONENTS */
 
-@import "./components/Navbar/Index.css";
 @import "./components/CartWidget/Index.css";
+@import "./components/LinkButton/Index.css";
+@import "./components/Card/Index.css";
+@import "./components/ItemList/Index.css";
+@import "./components/ItemDetail/Index.css";

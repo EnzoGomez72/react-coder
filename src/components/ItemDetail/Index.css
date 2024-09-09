@@ -1,0 +1,103 @@
+.item-detail {
+    margin: auto;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;}
+
+    .item-detail__picture{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .item-detail__picture--img {
+        width: 500px;
+        height: 100%;
+        object-position: center;
+        object-fit: contain;
+        transition: 0.3s ease-in;
+    }
+
+    .item-detail__picture--img:hover {
+        opacity: 0.8;
+    }
+
+    .item-detail__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1.5rem;
+        flex-grow: 1;
+    }
+
+    .item-detail__info--category {
+        font-size: 24px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .item-detail__info--name {
+        font-size: 24px;
+    }
+
+    .item-detail__info--description {
+        font-size: 20px;
+        color: #161516;
+        font-weight: 600;
+        max-width: 70%;
+    }
+
+    .item-detail__info--price {
+        font-size: 24px;
+    }
+
+    .item-detail__form {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .item-detail__form--btn{
+        padding: 6px;
+        font-size: 16px;
+        width: 50px;
+        text-align: center;
+        background-color: #161516;
+        color: #f8f1f1;
+        border: 3px solid #161516;
+        cursor: pointer;
+        transition: 0.3s ease-in;
+    }
+
+    .item-detail__form--btn:hover{
+        opacity: 0.9;
+    }
+
+    .item-detail__form--input{
+        padding: 6px;
+        font-size: 16px;
+        width: 50px;
+        text-align: center;
+    }
+
+    .item-detail__form--submit {
+        background-color: #0c0c0c;
+        color: #f8f1f1;
+        font-size: 24px;
+        padding: 40px, 28px;
+        cursor: pointer;
+        transition: 0.3s ease-in;
+    }
+
+    .item-detail__form--submit:hover {
+            background-color: #d1d1d1;
+            color: #161516; 
+    }

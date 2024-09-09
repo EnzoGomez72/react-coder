@@ -1,0 +1,39 @@
+.header {
+    background-color: #0c0c0c;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__logo {
+    padding: 12px 0;
+}
+
+.navbar__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar__item {
+    padding: 4px;
+    line-height: 1;
+}
+
+.navbar__item:hover {
+        color: #6d646d;
+    transition: ease 0.3s; }
+
+.navbar__link{
+    font-size: 20px;
+    line-height: 1;
+}
+
+    
+
