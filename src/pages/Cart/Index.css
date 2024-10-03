@@ -1,0 +1,214 @@
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main h2 {
+    font-size: 32px; 
+    margin: 24px; 
+  }
+  
+  .carrito-page {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 80px; 
+    width: 100%;
+  }
+  
+  .carrito {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: space-around;
+  }
+
+  .carrito__boton {
+    text-decoration: none;
+    color: #f1f1ed;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0c0c0c;
+    font-weight: 300;
+    margin-bottom: 10px;
+
+    margin-right: 30px;
+    margin-left: 30px;
+    transition: 0.3s ease-in; }
+
+    
+    .carrito__boton:hover {
+        background-color: #fdfdfd;
+        color: #161516; }
+  
+  
+  .carrito__mensaje {
+    width: 100%;
+    padding: 24px; 
+    background-color: lightgray; 
+    text-align: center;
+    color: black; 
+    font-size: 24px; 
+    font-weight: 500;
+    border-top: 2px solid black; 
+  }
+  
+  .carrito__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 32px; 
+  }
+  
+  .carrito__table th,
+  .carrito__table td {
+    border-bottom: 1px solid lightgrey; 
+    padding: 6px 0; 
+    text-align: center;
+    font-size: 16px; 
+    color: black; 
+    font-weight: 600;
+  }
+  
+  .carrito__table th {
+    background-color: white; 
+    color: black; 
+    font-size: 16px; 
+    font-weight: 700;
+  }
+  
+  .carrito-item__icon {
+    color: black; 
+    font-size: 14px; 
+    margin-right: 32px; 
+    cursor: pointer;
+  }
+  
+  .carrito-item__picture__img {
+    height: 100px;
+    object-position: center;
+    object-fit: contain;
+  }
+  
+  .carrito__table button {
+    background-color: black; 
+    color: white; 
+    border: none;
+    width: 40px; 
+    height: 40px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .carrito__table button:hover {
+    background-color: grey; 
+  }
+  
+  .carrito__table span {
+    margin: 16px; 
+    text-align: center;
+    font-size: 12px; 
+  }
+  
+  .carrito__button {
+    margin: 0 16px 16px; 
+  }
+  
+  .resumen {
+    margin: 48px; 
+    padding: 32px 0; 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    border: 1px solid lightgrey; 
+    box-shadow: rgba(0, 0, 0, 0.16) 2px 2px 2px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  }
+  
+  .resumen h3 {
+    text-align: center;
+    font-size: 24px; 
+  }
+  
+  .resumen__table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 16px 0; 
+  }
+  
+  .resumen__table th,
+  .resumen__table td {
+    padding: 8px; 
+    font-size: 14px; 
+  }
+  
+  .resumen__table td {
+    text-align: right;
+    font-weight: 800;
+    color: black; 
+  }
+  
+  .resumen button {
+    margin: 0 48px; 
+  }
+  
+  .modal {
+    display: block;
+    background-color: white; 
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1000;
+  }
+  
+  .modal__cards {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 5px 2px;
+    padding: 20px;
+  }
+  
+  .modal__form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .modal__form input {
+    border-width: 0 0 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black; 
+    outline: none;
+    transition: 0.3s;
+    height: 30px;
+    border-radius: 0;
+    font-size: 16px; 
+  }
+  
+  .modal__form__div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 300;
+  }
+  

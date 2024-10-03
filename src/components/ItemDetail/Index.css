@@ -5,7 +5,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 2rem;}
+    gap: 2rem;
+    font-family: "Inter", sans-serif;
+}
 
     .item-detail__picture{
         display: flex;
@@ -33,16 +35,19 @@
         justify-content: flex-start;
         gap: 1.5rem;
         flex-grow: 1;
+        font-family: "Inter", sans-serif;
     }
 
     .item-detail__info--category {
         font-size: 24px;
         color: black;
         font-weight: 500;
+        font-family: "Inter", sans-serif;
     }
 
     .item-detail__info--name {
         font-size: 24px;
+        font-family: "Inter", sans-serif;
     }
 
     .item-detail__info--description {
@@ -50,6 +55,7 @@
         color: #161516;
         font-weight: 600;
         max-width: 70%;
+        font-family: "Inter", sans-serif;
     }
 
     .item-detail__info--price {

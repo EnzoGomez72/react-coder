@@ -38,7 +38,7 @@
     {
         "id": 5,
         "name": "Embroidered Thunderbird Tee Black",
-        "price": 28000,
+        "price": 32000,
         "img": "/public/img/embroidered-thunderbird-tee.png",
         "category": "top",
         "description": "Remera color negro con ave",
@@ -47,7 +47,7 @@
     {
         "id": 6,
         "name": "Embroided Thunderbird Tee Dune",
-        "price": 28000,
+        "price": 32000,
         "img": "/public/img/embroidered-thunderbird-tee-dune.png",
         "category": "top",
         "description": "Remera color tierra con ave",
@@ -56,7 +56,7 @@
     {
         "id": 7,
         "name": "Embroidered Thunderbird Tee Lemoncream",
-        "price": 28000,
+        "price": 32000,
         "img": "/public/img/embroidered-thunderbird-tee-lemoncream.png",
         "category": "top",
         "description": "Remera color limon con ave",
@@ -65,7 +65,7 @@
     {
         "id": 8,
         "name": "Embroidered Thunderbird Tee Gray",
-        "price": 28000,
+        "price": 32000,
         "img": "/public/img/embroidered-thunderbird-tee-gris.png",
         "category": "top",
         "description": "Remera color gris con ave",
@@ -74,7 +74,7 @@
     {
         "id": 9,
         "name": "Nylon Track Jacket Black",
-        "price": 28000,
+        "price": 40000,
         "img": "/public/img/nylon-track-jacket-black.png",
         "category": "top",
         "description": "Chaqueta color negro",
@@ -83,7 +83,7 @@
     {
         "id": 10,
         "name": "Wideleg Trouser Black",
-        "price": 37000,
+        "price": 80000,
         "img": "/public/img/wideleg-trouser-black.png",
         "category": "bottom",
         "description": "Pantalon ancho color negro",
@@ -92,7 +92,7 @@
     {
         "id": 11,
         "name": "Wideleg Trouser Gray",
-        "price": 37000,
+        "price": 80000,
         "img": "/public/img/wideleg-trouser-gris.png",
         "category": "bottom",
         "description": "Pantalon ancho color gris",
@@ -101,7 +101,7 @@
     {
         "id": 12,
         "name": "Wideleg Trouser Lemoncream",
-        "price": 37000,
+        "price": 80000,
         "img": "/public/img/wideleg-trouser-lemoncream.png",
         "category": "bottom",
         "description": "Pantalon ancho color limon",

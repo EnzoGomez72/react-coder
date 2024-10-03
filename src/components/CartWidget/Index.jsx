@@ -1,7 +1,15 @@
-
+import { useContext } from "react";
 import { Icon } from "@iconify/react"
+import { CartContext } from "../../Context/CartContext";
+import { Link } from "react-router-dom";
 
-const CartWidget = ({quantity}) => {
+const CartWidget = () => {
+
+    const {cartItems} = useContext(CartContext);
+
+    const quantity = cartItems.length > 0 ? cartItems.map(item => item.quantity).reduce((acc, act)=> acc + act): 0;
+
+    console.log("Cart:", cartItems);
 
     return (
         <div className="cart-widget">

@@ -4,7 +4,7 @@
     margin: 16px;
     border-radius: 5px;
     gap: 2px;
-    font-family: "inter", sans-serif; }
+    font-family: "Inter", sans-serif; }
     .card-image {
       height: 500px;
       width: 100%;
@@ -13,7 +13,9 @@
       font-size: 20px;
       text-align: center;
       font-weight: 300;
-      margin-top: 10px; }
+      margin-top: 10px;
+      font-family: "Inter", sans-serif;
+    }
     .card div a {
       text-decoration: none;
       color: #f1f1ed;
@@ -25,7 +27,9 @@
       display: block;
       margin-right: 30px;
       margin-left: 30px;
-      transition: 0.3s ease-in; }
+      transition: 0.3s ease-in;
+      font-family: "Inter", sans-serif;
+    }
       .card div .btn {
           text-decoration: none;
           color: #f1f1ed;

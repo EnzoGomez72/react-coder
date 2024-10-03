@@ -1,0 +1,43 @@
+.hero {
+    background-image: url("/public/img/fog.jpg"); /* Cambia la URL por la imagen deseada */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+  
+  .shop-button {
+    padding: 12px 24px;
+    background-color: #ff4757; /* Color del botón */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .shop-button:hover {
+    background-color: #ff6b81; /* Color del botón al pasar el ratón */
+  }
+  

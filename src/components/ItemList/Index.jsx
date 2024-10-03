@@ -11,7 +11,19 @@ export default ItemList;*/
 import { useState, useEffect } from "react";
 import Card from "../Card/Index";
 
-const ItemList = ({category}) => {
+const ItemList = ({items}) => {
+
+
+    return(
+        <div className="ItemList">
+        {items.map((item, i) => <Card key={`card-${i}`} {...item}/>)}
+        </div>
+    );
+};
+
+export default ItemList;
+
+/*const ItemList = ({category}) => {
     let [ items, setItems] = useState([]);
 
     useEffect(() => {
@@ -32,6 +44,4 @@ const ItemList = ({category}) => {
         {items.map((item, i) => <Card key={`card-${i}`} {...item}/>)}
         </div>
     );
-};
-
-export default ItemList;
+};*/

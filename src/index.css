@@ -14,3 +14,7 @@
 @import "./components/Card/Index.css";
 @import "./components/ItemList/Index.css";
 @import "./components/ItemDetail/Index.css";
+@import "./pages/Cart/Index.css";
+@import "./components/Spinner/Index.css";
+@import "./pages/Contacto/Index.css";
+@import "./pages/Home/Index.css";
